@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Queue System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checkout Queue System</h1>
+        
+        <div class="input-section">
+            <input type="number" id="itemCount" min="1" placeholder="Enter number of items">
+            <button onclick="addCustomer()">Add Customer</button>
+        </div>
+
+        <div class="checkout-section">
+            <div class="checkout" id="checkout1">
+                <h2>Checkout 1</h2>
+                <div class="queue"></div>
+                <div class="total">Total: 0</div>
+            </div>
+            <div class="checkout" id="checkout2">
+                <h2>Checkout 2</h2>
+                <div class="queue"></div>
+                <div class="total">Total: 0</div>
+            </div>
+            <div class="checkout" id="checkout3">
+                <h2>Checkout 3</h2>
+                <div class="queue"></div>
+                <div class="total">Total: 0</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
